@@ -2,6 +2,7 @@
 #include<vector>
 // ROOTPTR-> NULL 
 // NULL<->[val]<->[val]<->[val]<->NULL
+// Implementing a doubly linked list with insert(), search(), and delete() interfaces.
 struct Node {
 	Node* head;
 	std::string val;
